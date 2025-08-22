@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@v4
 
       - name: Run update script
         run: bash update.sh
@@ -20,9 +20,9 @@ jobs:
         run: echo "BRANCH_NAME=auto/update-$(date +'%Y%m%d')" >> $GITHUB_ENV
 
       - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v7
+        uses: peter-evans/create-pull-request@v6
         with:
           commit-message: "Automated update via update.sh"
           branch: ${{ env.BRANCH_NAME }}
           title: "Automated update (${{ env.BRANCH_NAME }})"
-          body: "This PR was created automatically by GitHub Actions running update.sh."
+          token: ${{ secrets.GITHUB_TOKEN }}
