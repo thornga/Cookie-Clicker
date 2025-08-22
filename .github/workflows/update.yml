@@ -15,10 +15,14 @@ jobs:
       - name: Run update script
         run: bash update.sh
 
+      - name: Set Branch Name
+        id: set_branch
+        run: echo "BRANCH_NAME=auto/update-$(date +'%Y%m%d')" >> $GITHUB_ENV
+
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v7
         with:
-          commit-message: "Automated update"
-          branch: "auto/update-$(date +'%Y%m%d')"
-          title: "Automated update ($(date +'%Y-%m-%d'))"
+          commit-message: "Automated update via update.sh"
+          branch: ${{ env.BRANCH_NAME }}
+          title: "Automated update (${{ env.BRANCH_NAME }})"
           body: "This PR was created automatically by GitHub Actions running update.sh."
