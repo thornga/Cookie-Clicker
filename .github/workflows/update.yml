@@ -1,5 +1,9 @@
 name: Update and PR
 
+permissions:
+  contents: write
+  pull-requests: write
+
 on:
   schedule:
     - cron: "0 0 * * *"
@@ -25,4 +29,5 @@ jobs:
           commit-message: "Automated update via update.sh"
           branch: ${{ env.BRANCH_NAME }}
           title: "Automated update (${{ env.BRANCH_NAME }})"
+          body: "This PR was created automatically by GitHub Actions"
           token: ${{ secrets.GITHUB_TOKEN }}
