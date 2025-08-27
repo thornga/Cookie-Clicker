@@ -5,7 +5,6 @@
 ./img/milkHazelnut.png
 ./img/hearts.png
 ./img/javascriptconsole.png
-./img/playsaurusbanner3.png
 ./img/milkBlack.png
 ./img/patreon.png
 ./img/contract.png
@@ -24,7 +23,6 @@
 ./img/milkMint.png
 ./img/linkPulse.png
 ./img/ascendInfo.png
-./img/AQWorlds_CookieClicker_300x40.png
 ./img/dungeonFoes.png
 ./img/santa.png
 ./img/portal.png
