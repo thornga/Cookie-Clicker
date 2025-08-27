@@ -257,7 +257,6 @@
 ./img/temple.png
 ./img/bgMoney.jpg
 ./img/wrathCookie.png
-./img/playsaurusLogo.png
 ./img/you.png
 ./img/milkMelon.png
 ./img/alternateGrandma.png
@@ -269,7 +268,6 @@
 ./img/portraitLucky.png
 ./img/cortexBackground.png
 ./img/youBackground.png
-./img/aqworldsbanner.jpg
 ./img/cosmicGrandma.png
 ./img/farm.png
 ./img/rainbowGrandma.png
@@ -420,7 +418,6 @@
 ./beta/img/milkHazelnut.png
 ./beta/img/hearts.png
 ./beta/img/javascriptconsole.png
-./beta/img/playsaurusbanner3.png
 ./beta/img/milkBlack.png
 ./beta/img/patreon.png
 ./beta/img/contract.png
@@ -439,7 +436,6 @@
 ./beta/img/milkMint.png
 ./beta/img/linkPulse.png
 ./beta/img/ascendInfo.png
-./beta/img/AQWorlds_CookieClicker_300x40.png
 ./beta/img/dungeonFoes.png
 ./beta/img/santa.png
 ./beta/img/portal.png
@@ -619,7 +615,6 @@
 ./beta/img/grandma.png
 ./beta/img/parade.png
 ./beta/img/gardenPlots.png
-./beta/img/playsaurusbanner2.png
 ./beta/img/easterEggs.png
 ./beta/img/panelGradientRight.png
 ./beta/img/sparkles.jpg
@@ -674,7 +669,6 @@
 ./beta/img/temple.png
 ./beta/img/bgMoney.jpg
 ./beta/img/wrathCookie.png
-./beta/img/playsaurusLogo.png
 ./beta/img/you.png
 ./beta/img/milkMelon.png
 ./beta/img/alternateGrandma.png
@@ -686,7 +680,6 @@
 ./beta/img/portraitLucky.png
 ./beta/img/cortexBackground.png
 ./beta/img/youBackground.png
-./beta/img/aqworldsbanner.jpg
 ./beta/img/cosmicGrandma.png
 ./beta/img/farm.png
 ./beta/img/rainbowGrandma.png
